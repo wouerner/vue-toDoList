@@ -1,5 +1,12 @@
 import Vue from 'vue'
 
+// import Vuetify from 'vuetify'
+// Vue.use(Vuetify)
+
+var app = document.createElement('div')
+app.setAttribute('data-app', true)
+document.body.appendChild(app)
+
 Vue.config.productionTip = false
 
 // require all test files (files that ends with .spec.js)
