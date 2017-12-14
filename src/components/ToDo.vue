@@ -1,7 +1,6 @@
 <template>
     <section class="todoapp">
         <header class="header">
-            <h1>Tarefas</h1>
             <input-task v-on:newTask="addTask" ></input-task>
             <task-list v-bind:todo-list="tasks" ></task-list>
         </header>

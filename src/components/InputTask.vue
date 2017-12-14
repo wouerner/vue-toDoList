@@ -1,8 +1,11 @@
 <template>
     <div>
-        <input class="new-todo"
-        v-on:keyup.enter="addTask"
-        placeholder="O que precisa ser feito?">
+        <v-text-field
+            placeholder="O que precisa ser feito?"
+            label="Tarefas"
+            v-on:keyup.enter="addTask"
+            required
+            ></v-text-field>
     </div>
 </template>
 
